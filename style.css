@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* main page layout */
+
+.page {
+    display: flex;
+    gap: 40px;
+}
+
+/* main text area */
+
+.main {
+    flex: 3;
+}
+
+/* right information column */
+
+.sidebar {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* headings */
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}
+
+/* links */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+:target {
+    background: #fff3b0;
+    padding: 4px;
+}
+
+
+.vestige-list {
+    margin-left: 12px;
+}
+
+.vestige-list li {
+    margin-bottom: 12px;
+}
+
+.vestige-info {
+    margin-left: 12px;
+}
+
+
+.boss-layout {
+    display: flex;
+    gap: 40px;
+}
+
+.boss-column {
+    flex: 1;
+}
+
+.boss-list {
+    margin-left: 20px;
+}
+
+.boss-list li {
+    margin-bottom: 18px;
+}
+
+.boss-info {
+    margin-left: 15px;
+}
+
+.boss-column h4 {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+}
